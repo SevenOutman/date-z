@@ -1,11 +1,11 @@
 {
-  "name": "my-ts-lib",
+  "name": "date-z",
   "version": "0.0.0",
-  "description": "My awesome typescript library",
+  "description": "Date-time API with timezone in mind",
   "bugs": {
-    "url": "https://github.com/SevenOutman/ts-lib-starter/issues"
+    "url": "https://github.com/SevenOutman/date-z/issues"
   },
-  "repository": "github:SevenOutman/ts-lib-starter",
+  "repository": "github:SevenOutman/date-z",
   "license": "MIT",
   "exports": {
     "require": "./dist/index.js",
@@ -21,16 +21,19 @@
     "build": "pnpm run build-fast -- --dts-resolve",
     "build-fast": "tsup src/index.ts --format cjs,esm",
     "prepublishOnly": "pnpm run build",
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@egoist/prettier-config": "1.0.0",
+    "@vitest/coverage-v8": "^0.34.6",
     "prettier": "^2.8.4",
     "prettier-plugin-packagejson": "^2.4.3",
     "tsup": "6.4.0",
     "typescript": "^4.9.5",
-    "vitest": "0.12.6"
+    "vitest": "0.34.5"
   },
+  "packageManager": "pnpm@8.6.10",
   "publishConfig": {
     "access": "public"
   }
