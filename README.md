@@ -1,6 +1,6 @@
 # date-z
 
-[![npm version](https://badgen.net/npm/v/@sevenoutman/date-z)](https://npm.im/@sevenoutman/date-z) [![npm downloads](https://badgen.net/npm/dm/@sevenoutman/date-z)](https://npm.im/@sevenoutman/date-z)
+[![npm version](https://img.shields.io/npm/v/%40sevenoutman/date-z)](https://npm.im/@sevenoutman/date-z)
 [![codecov](https://codecov.io/gh/SevenOutman/date-z/graph/badge.svg?token=5xJVmpIodz)](https://codecov.io/gh/SevenOutman/date-z)
 
 Date-time API with timezone in mind.
