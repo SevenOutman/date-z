@@ -1,5 +1,5 @@
 {
-  "name": "date-z",
+  "name": "@sevenoutman/date-z",
   "version": "0.0.0",
   "description": "Date-time API with timezone in mind",
   "bugs": {
